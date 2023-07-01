@@ -2,7 +2,6 @@ import React from "react";
 
 import ReactDOM from "react-dom/client";
 
-import "./App.module.css";
 import "./normalize.css";
 import { App } from "./App";
 
