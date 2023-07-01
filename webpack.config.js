@@ -18,7 +18,7 @@ module.exports = {
       filename: '[name].[contenthash].css',
       chunkFilename: '[id].css',
     }),
-    new CleanWebpackPlugin,
+    new CleanWebpackPlugin(),
     new webpack.ProvidePlugin({
       React: 'react',
     }),
